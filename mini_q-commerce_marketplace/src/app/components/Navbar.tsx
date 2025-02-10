@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 
 const links = [
     {name:'Home', href: '/'},
-    {name:'Cooking Essentials', href: '/CookingEssentials'},
+    {name:'Essentials', href: '/Essentials'},
     {name:'Pulses', href: '/Pulses'},
     {name:'Beverages', href: '/Beverages'},
 ];
@@ -48,5 +48,5 @@ export default function Navbar(){
                 </div>
             </div>
         </header>
-    )
-}
+    );
+};
